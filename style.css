@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+    border: solid 5px rgb(131, 0, 238);
+    border-radius: 15px;
+    background-image: linear-gradient(white, green );
+}
+
+li{
+    margin-top:10px;
+    font-size: 25px;
+}
+
+h1:hover{
+   transform: scale(2);
+    transition: all 5s ease-in;
+    margin: 30px;
+}
+
+.screpka:hover{
+    transform: scale(4) translateX(25px) translateY(35px);
+    transition: all 3s linear;
+    
+}
+
+.screpka{
+    padding-left: 15px;
+}
+
+a{
+   color: white;
+   border: grey 5px double;
+   text-decoration: none;
+   text-align: center;
+   border-radius: 15px;
+   background: black;
+   padding: 3px;
+   margin-top: 10px;
+}
+
+.gitar{
+    padding-left: 150px;
+}
+
+footer{
+  height: 250px;
+  background-image: linear-gradient(white,#FFF273);
+  width: 1700px;
+}
